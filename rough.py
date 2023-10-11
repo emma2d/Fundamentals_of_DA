@@ -17,4 +17,21 @@ while pos_int >1:
         pos_ints.append(int(pos_int))
 
 
-print(pos_ints, end = ' ')                   # print the list of numbers generated without commas or brackets
+#print(pos_ints, end = ' ')                   # print the list of numbers generated without commas or brackets
+
+from random import choice
+from time import sleep
+
+n = choice([x for x in range(2, 10000) if all(x%y != 0 for y in range(2, x))])
+ls = []
+ls.append(n)
+while True:
+    if n % 2 == 0:
+        n = n // 2
+        ls.append(n)
+    elif n % 2 != 0:
+        n = (3 * n) + 1
+        ls.append(n)
+    if n == 1:
+        break
+print(ls)

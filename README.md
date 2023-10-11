@@ -23,3 +23,5 @@ Contains two Jupyter Notesbooks, one for tasks and one for the module project.
 # References 
 Refer to "Python Data Science Handbook" by Jake VanderPlas @ 
 https://github.com/jakevdp/PythonDataScienceHandbook/tree/master/notebooks
+
+https://www.cmor-faculty.rice.edu/~heinken/latex/symbols.pdf (visited 10/10/2023)
